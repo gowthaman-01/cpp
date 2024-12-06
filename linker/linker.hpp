@@ -1,7 +1,5 @@
 #pragma once
 
-#include <iostream>
-
 /*
  * This function is called in both linker.cpp and main.cpp.
  *
@@ -11,7 +9,8 @@
  * Another alternative is to use the static keyword.
  * Marking a function as static makes its linking internal, creating separate versions in linker.cpp and main.cpp.
  *
- * However, the best practice is to just have a declaration in this header file, and define the function in linker.cpp
+ * However, the best practice is to have a declaration in this header file, and define the function in linker.cpp
  */
 inline void linkHelper() {
+    return;
 }
